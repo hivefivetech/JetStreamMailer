@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import type { StaticImageData } from "next/image";
 
 export const HeroParallax = ({
     products,
@@ -16,7 +17,7 @@ export const HeroParallax = ({
     products: {
         title: string;
         link: string;
-        thumbnail: string;
+        thumbnail: string | StaticImageData;
     }[];
 }) => {
     const firstRow = products.slice(0, 5);
@@ -104,13 +105,24 @@ export const HeroParallax = ({
 export const Header = () => {
     return (
         <div className="relative flex flex-col items-center text-center px-4 py-10 md:py-20 w-full bg-white overflow-hidden">
-            <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-black leading-tight break-words w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-black leading-tight break-words w-full z-50">
                 JetStream <br /> Mailer
             </h1>
-            <p className="mt-6 text-sm sm:text-base md:text-lg text-gray-700 max-w-sm sm:max-w-xl md:max-w-4xl break-words w-full">
-                We build beautiful products with the latest technologies and frameworks. 
-                We are a team of passionate developers and designers that love to build amazing products.
+
+            <p className="mt-6 text-base sm:text-lg md:text-2xl text-gray-700 max-w-sm sm:max-w-xl md:max-w-4xl break-words w-full font-medium z-50">
+                Experience lightning-fast email delivery with <span className="text-blue-600 font-semibold">Jetstream Mailer</span> - seamlessly compatible with APIs and SMTPs like
+                <span className="text-blue-600 font-semibold"> Gmail</span>, <span className="text-blue-600 font-semibold">iCloud</span>, third-party providers, and more,
+                all secured with <span className="text-blue-600 font-semibold">top-tier encryption</span>!
             </p>
+
+            <div className="mt-6 flex items-center justify-center text-[#5ada3b] font-extrabold z-50 animate-pulse">
+                <div className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 p-4 rounded-full shadow-lg transform hover:scale-110 transition-transform duration-300">
+                    <p className="text-white text-4xl md:text-6xl">90%</p>
+                </div>
+                <p className="ml-4 text-lg sm:text-xl md:text-3xl text-green-600">
+                    Inbox Success Guaranteed!
+                </p>
+            </div>
         </div>
     );
 };
@@ -122,7 +134,7 @@ export const ProductCard = ({
     product: {
         title: string;
         link: string;
-        thumbnail: string;
+        thumbnail: string | StaticImageData;
     };
     translate: MotionValue<number>;
 }) => {

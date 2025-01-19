@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "./ui/sparkles";
+import ToolOne from "@/app/downloadProducts/components/ToolOne";
+import ToolTwo from "@/app/downloadProducts/components/ToolTwo";
+import ToolThree from "@/app/downloadProducts/components/ToolThree";
 
 export function SparklesPreviewDownloadProduct() {
     const products = [
@@ -52,8 +55,12 @@ export function SparklesPreviewDownloadProduct() {
                     Download Our Products
                 </h1>
 
+                <ToolOne />
+                <ToolTwo />
+                <ToolThree />
+
                 {/* Product Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     {products.map((product, index) => (
                         <div
                             key={index}
@@ -75,10 +82,10 @@ export function SparklesPreviewDownloadProduct() {
                             </button>
                         </div>
                     ))}
-                </div>
+                </div> */}
 
                 {/* Feature Updates */}
-                <div className="mt-20 bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-3xl shadow-lg">
+                {/* <div className="mt-20 bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-3xl shadow-lg">
                     <h3 className="text-3xl font-bold text-gray-800 text-center mb-6">
                         Recent Updates
                     </h3>
@@ -89,7 +96,7 @@ export function SparklesPreviewDownloadProduct() {
                             </li>
                         ))}
                     </ul>
-                </div>
+                </div> */}
 
                 {/* Notice Section */}
                 <div className="mt-12 text-center">

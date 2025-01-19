@@ -81,7 +81,13 @@ export const Menu = ({
                 {children}
             </div>
             <div>
-                <FaTelegram className="text-white w-9 h-9" />
+                <a
+                    href="https://t.me/Zplusmn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaTelegram className="text-white w-9 h-9 duration-300 hover:scale-105 cursor-pointer" />
+                </a>
             </div>
         </nav>
     );

@@ -33,7 +33,7 @@ export function SparklesPreviewWholeBgHero() {
                 <HeroParallaxDemo />
             </div>
 
-            <div className="px-12 sm:px-20 z-10" id="features">
+            <div className="px-12 sm:px-20 z-10 mt-12" id="features">
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}

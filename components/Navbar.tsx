@@ -21,7 +21,7 @@ function Navbar({ className }: { className?: string }) {
             className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
         >
             <Menu setActive={setActive}>
-                 {/* <MenuItem setActive={setActive} active={active} item="Home">
+                {/* <MenuItem setActive={setActive} active={active} item="Home">
                     <div className="flex flex-col space-y-4 text-sm">
                         <HoveredLink
                             href="/"
@@ -101,6 +101,15 @@ function Navbar({ className }: { className?: string }) {
                             src={ProductThree.src}
                             description="Effortlessly generate APIs with customizable configurations for seamless integration."
                         />
+                    </div>
+                </MenuItem>
+                <MenuItem setActive={setActive} active={active} item="Download">
+                    <div className="flex flex-col space-y-4 text-sm">
+                        <HoveredLink
+                            href="/downloadProducts"
+                        >
+                            Download Tool Now
+                        </HoveredLink>
                     </div>
                 </MenuItem>
             </Menu>

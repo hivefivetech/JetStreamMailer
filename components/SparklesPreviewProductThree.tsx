@@ -41,7 +41,7 @@ export function SparklesPreviewProductThree() {
 
                 {/* Download Now Button */}
                 <a
-                    // href="/downloadPage"
+                    href="/downloadProducts"
                     className="px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-950 hover:shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
                 >
                     Download Now
