@@ -12,18 +12,18 @@ export const projects = [
         title: "App Password Tool",
         description:
             "Generate secure app passwords effortlessly for Gmail accounts with advanced encryption.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Simple Setup",
         description:
             "Easily upload CSV or Excel files to generate multiple app passwords in bulk.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Secure Management",
         description:
             "Store and manage app passwords safely without compromising security.",
-        link: "#",
+        link: "/downloadProducts",
     },
 ];

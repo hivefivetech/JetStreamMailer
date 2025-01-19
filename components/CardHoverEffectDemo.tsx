@@ -12,36 +12,36 @@ export const projects = [
         title: "Unlimited Email Sending",
         description:
             "Send infinite emails to unlimited addresses with seamless performance and reliability.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Gmail API Integration",
         description:
             "Utilize 5 Gmail API tabs for advanced email management and automation.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "App Password and Token Generator",
         description:
             "Generate app passwords and tokens effortlessly to enhance security and accessibility.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "HTML Email Generator",
         description:
             "Create visually stunning HTML emails in seconds with built-in design tools.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Multiple Email Sending Options",
         description:
             "Choose from a variety of email-sending methods to meet your marketing needs.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Advanced Tracking and Logs",
         description:
             "Monitor your campaigns with real-time tracking and detailed logs for performance insights.",
-        link: "#",
+        link: "/downloadProducts",
     },
 ];

@@ -12,18 +12,18 @@ export const projects = [
         title: "API Generator",
         description:
             "Easily generate APIs with customizable configurations for streamlined integrations.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Flexible Endpoints",
         description:
             "Create flexible API endpoints tailored to your specific application requirements.",
-        link: "#",
+        link: "/downloadProducts",
     },
     {
         title: "Custom Configurations",
         description:
             "Define headers, query parameters, and payloads with complete control over your API setup.",
-        link: "#",
+        link: "/downloadProducts",
     },
 ];
