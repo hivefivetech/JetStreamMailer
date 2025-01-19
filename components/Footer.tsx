@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import { FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
@@ -19,7 +20,7 @@ const Footer = () => {
                         <h2 className="text-lg font-semibold mb-3">Quick Links</h2>
                         <ul className="text-gray-400 space-y-2 text-sm">
                             <li>
-                                <a
+                                <Link
                                     href="/#"
                                     className="hover:text-white transition-colors"
                                     onClick={(e) => {
@@ -32,10 +33,10 @@ const Footer = () => {
                                     }}
                                 >
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
+                                <Link
                                     href="/#features"
                                     className="hover:text-white transition-colors"
                                     onClick={(e) => {
@@ -49,10 +50,10 @@ const Footer = () => {
                                     }}
                                 >
                                     Features
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
+                                <Link
                                     href="/#guide"
                                     className="hover:text-white transition-colors"
                                     onClick={(e) => {
@@ -66,7 +67,7 @@ const Footer = () => {
                                     }}
                                 >
                                     Guide
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

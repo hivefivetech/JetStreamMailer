@@ -10,7 +10,6 @@ import BgImg6 from "../assets/images/bgImg6.jpeg";
 import BgImg7 from "../assets/images/img1.jpeg";
 import BgImg8 from "../assets/images/img2.jpeg";
 import BgImg9 from "../assets/images/img3.jpeg";
-import BgImg10 from "../assets/images/img4.jpeg";
 import BgImg11 from "../assets/images/ImgAppPass2.jpeg";
 import BgImg12 from "../assets/images/ImgCredApi2.jpeg";
 

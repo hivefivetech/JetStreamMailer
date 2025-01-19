@@ -6,33 +6,7 @@ import ToolTwo from "@/app/downloadProducts/components/ToolTwo";
 import ToolThree from "@/app/downloadProducts/components/ToolThree";
 
 export function SparklesPreviewDownloadProduct() {
-    const products = [
-        {
-            title: "JetStream Mailer",
-            description:
-                "The ultimate email marketing tool with infinite sending, HTML generator, and more.",
-            buttonText: "Download Now",
-        },
-        {
-            title: "App Password Tool",
-            description:
-                "Generate secure app passwords effortlessly with advanced encryption.",
-            buttonText: "Download Now",
-        },
-        {
-            title: "API Generator",
-            description:
-                "Effortlessly generate APIs with customizable configurations.",
-            buttonText: "Download Now",
-        },
-    ];
-
-    const updates = [
-        "Added support for custom SMTP servers.",
-        "Enhanced HTML email generator with new templates.",
-        "Improved performance for Gmail API integrations.",
-    ];
-
+    
     return (
         <div className="min-h-screen relative w-full flex flex-col items-center justify-start overflow-hidden bg-gradient-to-b from-gray-50 to-gray-200">
             {/* Particle Background */}
