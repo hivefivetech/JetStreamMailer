@@ -7,7 +7,7 @@ import BgImg3 from "../assets/images/bgImg3.png";
 import BgImg4 from "../assets/images/bgImg4.png";
 import BgImg5 from "../assets/images/bgImg5.jpeg";
 import BgImg6 from "../assets/images/bgImg6.jpeg";
-import BgImg7 from "../assets/images/img1.jpeg";
+import BgImg7 from "../assets/images/img5.png";
 import BgImg8 from "../assets/images/img2.jpeg";
 import BgImg9 from "../assets/images/img3.jpeg";
 import BgImg11 from "../assets/images/ImgAppPass2.jpeg";

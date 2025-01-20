@@ -12,7 +12,7 @@ const Footer = () => {
                     <div>
                         <h1 className="text-3xl font-bold">JetStream Mailer</h1>
                         <p className="text-gray-400 text-sm mt-2">
-                            Simplifying email marketing, one message at a time.
+                            Simplifying email marketing.
                         </p>
                     </div>
                     {/* Links Section */}

@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
-import Img1 from "../assets/images/img1.jpeg";
+import Img1 from "../assets/images/img5.png";
 import Img2 from "../assets/images/img2.jpeg";
 import Img3 from "../assets/images/img3.jpeg";
 import Img4 from "../assets/images/img4.jpeg";

@@ -2,7 +2,7 @@
 import React from "react";
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
-import TabletImg from "../assets/images/img1.jpeg"
+import TabletImg from "../assets/images/img5.png"
 
 export function HeroScrollDemo() {
     return (

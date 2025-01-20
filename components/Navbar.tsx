@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
-import ProductOne from "../assets/images/img1.jpeg";
+import ProductOne from "../assets/images/img5.png";
 import ProductTwo from "../assets/images/ImgAppPass1.jpeg";
 import ProductThree from "../assets/images/ImgCredApi1.jpeg";
 
