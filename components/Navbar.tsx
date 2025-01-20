@@ -103,15 +103,18 @@ function Navbar({ className }: { className?: string }) {
                         />
                     </div>
                 </MenuItem>
-                <MenuItem setActive={setActive} active={active} item="Download">
-                    <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink
-                            href="/downloadProducts"
-                        >
-                            Download Tool Now
-                        </HoveredLink>
-                    </div>
-                </MenuItem>
+                {/* <MenuItem setActive={setActive} active={active} item="Download">
+                    <div className="flex flex-col space-y-4 text-sm"> */}
+                <HoveredLink
+                    href="/downloadProducts"
+                    onMouseEnter={() => setActive(null)}
+                >
+                    <p className="text-white hover:opacity-[0.9]">
+                        Download
+                    </p>
+                </HoveredLink>
+                {/* </div>
+                </MenuItem> */}
             </Menu>
         </div>
     );

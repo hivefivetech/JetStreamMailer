@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -12,25 +12,21 @@ const Footer = () => {
                     <div>
                         <h1 className="text-3xl font-bold">JetStream Mailer</h1>
                         <p className="text-gray-400 text-sm mt-2">
-                            Simplifying email marketing.
+                            Simplify bulk emailing and achieve 90% inbox success with JetStream Mailer.
+                        </p>
+                        <p className="text-gray-400 text-sm mt-2">
+                            Bulk Mailer | Auto Gmail api creator bot | Auto Gmail App password creator bot | Free Email validator | Free email Extractor | HTML genration AI | Free email content maker | SMTP bulk mailer | API bulk mailer | Free Bulk mailer | Email marketing
                         </p>
                     </div>
-                    {/* Links Section */}
+
+                    {/* Quick Links Section */}
                     <div>
                         <h2 className="text-lg font-semibold mb-3">Quick Links</h2>
                         <ul className="text-gray-400 space-y-2 text-sm">
                             <li>
                                 <Link
-                                    href="/#"
+                                    href="/"
                                     className="hover:text-white transition-colors"
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        if (window.location.pathname === "/") {
-                                            window.scrollTo({ top: 0, behavior: "smooth" });
-                                        } else {
-                                            window.location.href = "/";
-                                        }
-                                    }}
                                 >
                                     Home
                                 </Link>
@@ -39,15 +35,6 @@ const Footer = () => {
                                 <Link
                                     href="/#features"
                                     className="hover:text-white transition-colors"
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        const element = document.getElementById("features");
-                                        if (element) {
-                                            element.scrollIntoView({ behavior: "smooth" });
-                                        } else {
-                                            window.location.href = "/#features";
-                                        }
-                                    }}
                                 >
                                     Features
                                 </Link>
@@ -56,21 +43,21 @@ const Footer = () => {
                                 <Link
                                     href="/#guide"
                                     className="hover:text-white transition-colors"
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        const element = document.getElementById("guide");
-                                        if (element) {
-                                            element.scrollIntoView({ behavior: "smooth" });
-                                        } else {
-                                            window.location.href = "/#guide";
-                                        }
-                                    }}
                                 >
                                     Guide
                                 </Link>
                             </li>
+                            <li>
+                                <Link
+                                    href="/downloadProducts"
+                                    className="hover:text-white transition-colors"
+                                >
+                                    Download Products
+                                </Link>
+                            </li>
                         </ul>
                     </div>
+
                     {/* Telegram Section */}
                     <div>
                         <h2 className="text-lg font-semibold mb-3">Connect with Us</h2>
