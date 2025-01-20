@@ -48,7 +48,7 @@ const dummyContent = [
         description: (
             <>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    <strong>Streamline your email campaigns</strong> with JetStream Mailer's seamless integration with Gmail API. Create and manage <strong>more than 3 tabs</strong> to effortlessly handle multiple accounts and maximize your sending capabilities.
+                    <strong>Boost your email campaigns</strong> with JetStream Mailer's smooth Gmail API. Create and manage <strong>7 tabs</strong> to handle multiple accounts and maximize your sending capabilities. <span className="text-green-500 font-semibold">Achieve 90% inboxing success</span> with every email you send.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
                     Unlock full flexibility to send various formats, including <strong>PDF, BMP, HEIC, JPEG, PNG, TIFF, GIF, DOCX</strong>, and more. Inline HTML emails come alive with supported image formats like <strong>PNG, JPG, and JPEG</strong>, delivering captivating messages every time.
@@ -66,7 +66,7 @@ const dummyContent = [
         description: (
             <>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    Experience seamless email delivery with <strong>multiple SMTP tabs</strong> in JetStream Mailer. Effortlessly configure sending servers, whether it's <strong>Google, Yahoo, or a custom server</strong>, and manage them all in one place.
+                    Experience seamless email delivery with <strong>multiple SMTP tabs</strong> in JetStream Mailer. Easily configure sending servers, whether it's <strong>Google, Yahoo, ICloud, GMX or a custom server</strong>, and manage them all in one place. <span className="text-green-500 font-semibold">Achieve 90% inboxing success</span> with every email you send.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
                     Enjoy full support for attachments like <strong>PDF, BMP, HEIC, JPEG, PNG, TIFF, GIF, DOCX</strong>, and more. Inline HTML support ensures that your emails are not just functional but visually stunning, with images in <strong>PNG, JPG, and JPEG</strong> formats.
@@ -87,10 +87,10 @@ const dummyContent = [
                     Simplify your email setup with JetStream Mailer's <strong>Gmail Credential and App Password Generator</strong>. Upload an <strong>Excel</strong> or <strong>CSV file</strong>, and let the tool handle the process effortlessly.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    Generate app passwords and Gmail credentials in bulk with just a few clicks. This streamlined process ensures that you can manage multiple accounts securely and efficiently, saving valuable time.
+                    Generate app passwords and Gmail credentials in bulk with just a few clicks. This is a much easier and simpler process which saves your time and money by generating app password or Gmail credentials automatically.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    Perfect for users managing high-volume email campaigns, this feature provides an easy and secure way to get started quickly. With JetStream Mailer, stay in control of your credentials without the hassle.
+                    Now you can generate <strong>thousands of Gmail APIs, app passwords, or tokens</strong> without any limit or restriction. Say goodbye to OTP or 2FA hassles and streamline your workflow effortlessly.
                 </p>
             </>
         ),
@@ -102,13 +102,13 @@ const dummyContent = [
         description: (
             <>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    Effortlessly create stunning email templates with JetStream Mailer's <strong>HTML Generator</strong>. Simply provide a <strong>prompt</strong> and select an image to generate beautifully designed HTML for your email campaigns.
+                    Create stunning HTML email templates (content) with JetStream Mailer's <strong>HTML Generator</strong>. Simply provide a <strong>prompt</strong> and select an image to generate beautifully designed HTML for your email campaigns.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
                     This intuitive tool ensures that your emails are both visually appealing and professional. Customize headers, layouts, and inline images to match your branding and messaging needs.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    Ideal for marketers and designers, the HTML Generator saves time and effort by automating the design process. With JetStream Mailer, unleash your creativity and craft impactful emails in seconds.
+                    Ideal for marketers and designers, the HTML Generator saves time and simplifies the design process. With JetStream Mailer, unleash your creativity and craft impactful emails in seconds.
                 </p>
             </>
         ),

@@ -6,13 +6,13 @@ export function TypewriterEffectSmoothProductThree() {
             text: "Best",
         },
         {
-            text: "Api",
+            text: "Gmail API",
         },
         {
             text: "Generator",
         },
         {
-            text: "Tool!",
+            text: "Bot!",
             className: "text-[#00bbff] dark:text-[#00bbff]",
         },
     ];

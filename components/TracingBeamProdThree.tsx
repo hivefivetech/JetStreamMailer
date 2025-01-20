@@ -4,7 +4,6 @@ import React from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
-import Img1 from "../assets/images/ImgCredApi1.jpeg";
 import Img2 from "../assets/images/ImgCredApi2.jpeg";
 
 export function TracingBeamProdThree() {
@@ -41,34 +40,34 @@ export function TracingBeamProdThree() {
 }
 
 const dummyContent = [
+    // {
+    //     title: "Highly Secured Login",
+    //     description: (
+    //         <>
+    //             <p className="mb-4 text-lg font-medium text-gray-700">
+    //                 JetStream Mailer provides a <strong>highly secure login</strong> process for managing app passwords. Users are authenticated, and unique app passwords are generated and securely enabled from the backend.
+    //             </p>
+    //             <p className="mb-4 text-lg font-medium text-gray-700">
+    //                 This robust system ensures that your credentials are protected with advanced encryption and backend validation. Enjoy peace of mind knowing that your login process is safeguarded at every step.
+    //             </p>
+    //         </>
+    //     ),
+    //     badge: "Secure Login",
+    //     image: Img1,
+    // },
     {
-        title: "Highly Secured Login",
+        title: "Gmail API (.JSON) and Token Generation",
         description: (
             <>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    JetStream Mailer provides a <strong>highly secure login</strong> process for managing app passwords. Users are authenticated, and unique app passwords are generated and securely enabled from the backend.
-                </p>
-                <p className="mb-4 text-lg font-medium text-gray-700">
-                    This robust system ensures that your credentials are protected with advanced encryption and backend validation. Enjoy peace of mind knowing that your login process is safeguarded at every step.
-                </p>
-            </>
-        ),
-        badge: "Secure Login",
-        image: Img1,
-    },
-    {
-        title: "App Password and Token Generation",
-        description: (
-            <>
-                <p className="mb-4 text-lg font-medium text-gray-700">
-                    Easily generate app passwords and tokens with JetStream Mailer's intuitive tool. Users can upload a file containing Gmail accounts (in <strong>Excel</strong> or <strong>CSV</strong> format) and select an option to generate app passwords, tokens, or both.
+                    Easily generate API (.JSON) and tokens with JetStream API Generator Bot. Users can upload a file containing Gmail accounts (in <strong>Excel</strong> or <strong>CSV</strong> format) and select an option to generate app passwords, tokens, or both.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
                     Once selected, the process begins automatically, and the generated credentials are saved in the same directory path as the uploaded file. This feature ensures seamless and efficient credential management for your email operations.
                 </p>
             </>
         ),
-        badge: "App Passwords & Tokens",
+        badge: "Gmail API (.JSON) & Tokens",
         image: Img2,
     },
 ];

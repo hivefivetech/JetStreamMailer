@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FaTelegramPlane } from "react-icons/fa";
+import { FaRegCirclePlay } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -69,6 +70,15 @@ const Footer = () => {
                         >
                             <FaTelegramPlane size={24} />
                             <span className="text-sm">@ZplusMan</span>
+                        </a>
+                        <a
+                            href="https://t.me/ZplusMan"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center text-gray-400 hover:text-white transition-colors space-x-2 mt-3"
+                        >
+                            <FaRegCirclePlay size={24} />
+                            <span className="text-sm">Live Demo Available (Inboxing Test Only)</span>
                         </a>
                     </div>
                 </div>

@@ -1,63 +1,77 @@
 import { cn } from "@/lib/utils";
 import {
-    IconAdjustmentsBolt,
-    IconCloud,
-    IconEaseInOut,
-    IconHeart,
-    IconHelp,
-    IconMicroscope,
-    IconRouteAltLeft,
-    IconTerminal2,
+    IconBrandCtemplar,
+    IconMailCheck,
+    IconMailAi,
+    IconMailDown,
+    IconAutomaticGearbox,
+    IconFileTypeHtml,
+    IconServerBolt,
+    IconMessageUser,
+    IconRefresh
 } from "@tabler/icons-react";
+import { RiMailSendFill } from "react-icons/ri";
 
 export function FeaturesSectionDemo() {
     const features = [
         {
             title: "UNLIMITED EMAILS",
             description:
-                "Send unlimited emails effortlessly with JetStream, ensuring your campaigns reach the inbox every time.",
-            icon: <IconTerminal2 />,
+                "Send unlimited emails with no daily limits or restrictions across multiple tabs, and all the mails will land in inbox, powered by JetStream Mailer.",
+            icon: <IconMailCheck />,
         },
         {
-            title: "HIGH SECURITY",
+            title: "2025 ADVANCED ENCRYPTION",
             description:
-                "JetStream offers robust security with advanced encryption and secure SMTP connections for worry-free email marketing.",
-            icon: <IconEaseInOut />,
+                "Ensure 2025 top-tier email security with JetStream's advanced encryption, safeguarding sensitive data and delivering secure SMTP connections for seamless, worry-free bulk email campaigns.",
+            icon: <IconBrandCtemplar />,
         },
         {
-            title: "SMART AUTOMATION",
+            title: "DYNAMIC TAGS IN MAILS",
             description:
-                "Automate your email campaigns with JetStream's intelligent tools, saving you time and boosting efficiency.",
-            icon: <IconMicroscope />,
+                "Boost inbox placement with dynamic tags that personalize email content and HTML files, automatically replacing values to enhance engagement and ensure your campaigns reach the right audience.",
+            icon: <IconMailAi />,
         },
         {
             title: "INBOX DELIVERABILITY",
-            description: "Achieve top-tier inbox placement for every email, maximizing engagement and results.",
-            icon: <IconCloud />,
+            description: "Guarantee up to 90% inbox placement with JetStream's advanced deliverability tools. Ensure every email reaches your audience's inbox, driving engagement and maximizing campaign success with unparalleled precision.",
+            icon: <IconMailDown />,
         },
         {
-            title: "AUTO TOKEN GENERATION",
+            title: "AUTO API & APP PASSWORD GENERATION",
             description:
-                "Generate tokens and app passwords automatically for seamless and secure email sending.",
-            icon: <IconRouteAltLeft />,
+                "Effortlessly generate Gmail APIs, app passwords, and tokens with JetStream's automated tools. Simplify integration, enhance security, and streamline email sending without manual effort.",
+            icon: <IconAutomaticGearbox />,
         },
         {
-            title: "FAST & RELIABLE",
+            title: "AUTOMATIC EMAIL HTML CONTENT GENERATION",
             description:
-                "JetStream delivers emails quickly and reliably, ensuring every campaign runs smoothly.",
-            icon: <IconHelp />,
+                "Effortlessly generate dynamic HTML email content with JetStream Mailer, complete with images, custom tags, and advanced formatting. Design professional, engaging emails in seconds to boost inbox placement and audience engagement.",
+            icon: <IconFileTypeHtml />,
         },
         {
-            title: "USER-FRIENDLY",
+            title: "PROXY FOR IP ROTATION",
             description:
-                "Designed for ease of use, JetStream's intuitive interface makes email marketing simple for everyone.",
-            icon: <IconAdjustmentsBolt />,
+                "Enhance email deliverability and maintain anonymity with JetStream's IP rotation feature, utilizing rotating or static proxies. Dynamically change your IP address for secure, efficient, and robust email sending campaigns.",
+            icon: <IconServerBolt />,
         },
         {
-            title: "ALL-IN-ONE SOLUTION",
+            title: "SEND MAIL WITH SMTP AND API",
             description:
-                "JetStream combines all the tools you need for successful email campaigns in a single platform.",
-            icon: <IconHeart />,
+                "JetStream unites Gmail API, SMTPs or any third-party SMTP generation into a single platform. Send emails seamlessly through any provider, ensuring 90% inbox placement and streamlined campaign success.",
+            icon: <RiMailSendFill className="w-5 h-5" />,
+        },
+        {
+            title: "REGULAR UPDATES",
+            description:
+                "JetStream is consistently updated to align with the latest changes from Google, Yahoo, iCloud, GMX, Hotmail, Outlook, AOL, private mail services, and other email providers, ensuring optimal performance. Stay ahead with features designed to maximize inbox placement and maintain seamless email sending.",
+            icon: <IconRefresh className="w-5 h-5" />,
+        },
+        {
+            title: "TRAINING & SUPPORT",
+            description:
+                "JetStream offers comprehensive training sessions and continuous support to ensure you make the most of our platform. Our dedicated team is here to guide you every step of the way, ensuring a smooth experience and complete satisfaction for all users. Stay confident with reliable assistance whenever you need it.",
+            icon: <IconMessageUser className="w-5 h-5" />,
         },
     ];
     return (

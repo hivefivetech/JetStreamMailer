@@ -12,7 +12,7 @@ export function TypewriterEffectSmoothProductTwo() {
             text: "Password",
         },
         {
-            text: "Generator!",
+            text: "Generator Bot!",
             className: "text-[#00bbff] dark:text-[#00bbff]",
         },
     ];

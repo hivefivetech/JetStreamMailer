@@ -42,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     User Guide for JetStream Mailer
                 </h2>
                 <p className="text-neutral-700 text-sm md:text-base">
-                    Explore how to maximize your email outreach with our powerful tools. Learn the steps to send unlimited emails, generate HTML templates, and integrate APIs effortlessly.
+                    Discover step-by-step guides to harness the full potential of JetStream Mailer. Learn how to set up and install the tool, generate dynamic HTML email templates, send unlimited emails, and seamlessly integrate APIs for effortless email marketing success.
                 </p>
             </div>
 

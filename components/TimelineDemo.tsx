@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
@@ -12,9 +11,9 @@ export function TimelineDemo() {
                         A quick and easy guide to getting started with Jet Stream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Follow this step-by-step guide to install and configure Jet Stream Mailer. Learn how to set up the Gmail API, integrate SMTP services, and automate your email workflows for seamless marketing.
+                        Follow this step-by-step guide to install and configure Jet Stream Mailer. Learn how to set up the JetStream Mailer and automate your email workflows for seamless marketing.
                         <br />
-                        Watch the video demo for a detailed walkthrough on optimizing your campaigns and improving outreach efficiency in just a few clicks.
+                        Watch the video demo for a detailed information.
                     </p>
                     <a href="https://www.youtube.com/embed/uGbLiMadwlE?si=GcI93i4JBjHjSlDw" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -28,9 +27,9 @@ export function TimelineDemo() {
                         Create stunning HTML templates effortlessly with JetStream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Use Jet Stream Mailer's automated template generation to quickly design professional HTML emails. Easily set up templates that fit your brand, engage your audience, and save time on email design.
+                        Use Jet Stream Mailer's automated template generation to quickly design professional HTML content.
                         <br />
-                        Watch the video demo to see how simple it is to create, customize, and deploy effective email templates that make your marketing stand out.
+                        Watch the video to learn how to generate HTML content using JetStream Mailer.
                     </p>
                     <a href="https://www.youtube.com/embed/DHpvkd3qxSM?si=RwU8D-zkEnB2poiG" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -41,12 +40,12 @@ export function TimelineDemo() {
             content: (
                 <div>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-4">
-                        Effortlessly generate multiple app passwords for Gmail accounts.
+                        Automatically generate multiple SMTP app passwords for Gmail accounts.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Quickly create and manage app passwords in bulk with Jet Stream Mailer's automated system. Ideal for managing multiple Gmail accounts securely, this feature streamlines your workflow and boosts efficiency.
+                        Automatically create Gmail SMTP app passwords in bulk with JetStream Mailer without OTP and 2-factor authentication. Now you can save your money on SMTP app password purchase.
                         <br />
-                        Watch the video demo to see how easy it is to set up, create, and organize Gmail app passwords at scale, saving time and simplifying account management.
+                        Watch the video to see how to automatically generate Gmail SMTP app passwords.
                     </p>
                     <a href="https://www.youtube.com/embed/-lM9eHIfpYE?si=wY-z8v15yVhNS8CC" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -57,12 +56,12 @@ export function TimelineDemo() {
             content: (
                 <div>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-4">
-                        Effortlessly create multiple Gmail APIs for seamless integration.
+                        Automatically create multiple Gmail APIs (.JSON) with JetStream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Use Jet Stream Mailer's bulk API creation feature to set up multiple Gmail API configurations in just a few steps. Perfect for managing high-volume email needs, this tool simplifies the process and saves time.
+                        Now you dont need to worry about making Gmail Api (.JSON) manually as JetStream Mailer will automatically create Gmail Api for you.
                         <br />
-                        Watch the video demo to learn how to streamline API creation, optimize your email delivery, and boost your outreach efficiency with ease.
+                        Watch the video to learn how to automatically create multiple Gmail APIs (.JSON) with JetStream Mailer
                     </p>
                     <a href="https://www.youtube.com/embed/9-Frc3dgZFc?si=5qBet2MTpFb9o3t7" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -76,9 +75,7 @@ export function TimelineDemo() {
                         Send thousands of emails effortlessly with Jet Stream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Streamline your email marketing with Jet Stream Mailer's bulk sending feature. Easily manage and send high volumes of emails, ensuring fast, secure, and reliable delivery to your entire audience.
-                        <br />
-                        Watch the video demo to see how to set up bulk email campaigns and maximize outreach without hassle, all while maintaining high deliverability rates.
+                        Watch this video to learn how to send mails in bulk with JetStream Mailer
                     </p>
                     <a href="https://www.youtube.com/embed/6Q3YXYni6Pc?si=gcpzg4-lAbKzayYJ" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -92,12 +89,7 @@ export function TimelineDemo() {
                         Send large volumes of emails directly using Gmail API without token setup.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Leverage Jet Stream Mailer's direct JSON integration with Gmail API for bulk email sending
-                        without token complexities. Simplify your email outreach process and maximize delivery
-                        efficiency.
-                        <br />
-                        Watch the video demo for a quick guide on setting up bulk sending with Gmail API,
-                        streamlining your campaigns, and ensuring high deliverability.
+                        Watch the video now and learn how send mails in bulk with Gmail API without the need for token setup with JetStream Mailer
                     </p>
                     <a href="https://www.youtube.com/embed/hUOTtr54DM8?si=nvgcgqq_5gPbk4Ej" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -108,14 +100,10 @@ export function TimelineDemo() {
             content: (
                 <div>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-4">
-                        Generate Gmail API tokens seamlessly with Jet Stream Mailer.
+                        Create Gmail API Tokens easily now with JetStream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Effortlessly create and manage Gmail API tokens for secure and efficient email integration.
-                        Automate the token generation process to streamline authentication across multiple Gmail accounts.
-                        <br />
-                        Watch the video demo to see how to set up API tokens quickly, ensuring secure and consistent
-                        access for your automated email workflows.
+                        Watch the video now to learn how easily create Gmail API tokens with JetStream Mailer.
                     </p>
                     <a href="https://www.youtube.com/embed/Y7kW7lwGNOk?si=PoxGCfPZ4vdsCLoh" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -126,14 +114,10 @@ export function TimelineDemo() {
             content: (
                 <div>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-4">
-                        Efficiently send bulk emails using SMTP with secure app passwords.
+                        Send bulk emails with any third party SMTP with secure app password using JetStream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Utilize Jet Stream Mailer's SMTP integration with app passwords for secure and reliable bulk
-                        email sending. Perfect for managing high-volume outreach without compromising on security.
-                        <br />
-                        Watch the video demo to see how easy it is to configure SMTP with app passwords, streamline
-                        bulk mailing, and enhance your email marketing effectiveness.
+                        Watch the video now and learn how to send emails in bulk with any third party SMTP with secure app password using JetStream Mailer.
                     </p>
                     <a href="https://www.youtube.com/embed/lhMAP9ydsxI?si=MvYMY4rWdHkFEGDZ" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>
@@ -144,16 +128,10 @@ export function TimelineDemo() {
             content: (
                 <div>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-4">
-                        Personalize your bulk emails with unique subjects, bodies, and
-                        recipient names for each message.
+                        Send customizable mails in bulk with multiple subjects and messages now with JetStream Mailer.
                     </p>
                     <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                        Jet Stream Mailer's flexible bulk mailing feature allows you to tailor each email with
-                        individual subjects, message bodies, and recipient names, enhancing personalization and
-                        engagement.
-                        <br />
-                        Watch the video demo to see how easy it is to set up customized bulk campaigns and deliver
-                        impactful, targeted messages to your audience effortlessly.
+                        Watch the video now and learn how to send customizable mails in bulk with JetStream Mailer.
                     </p>
                     <a href="https://www.youtube.com/embed/RNnRjfuBJa8?si=bXM6FJl-f2zKcsou" target="_blank" className="font-bold">Click Here To Watch</a>
                 </div>

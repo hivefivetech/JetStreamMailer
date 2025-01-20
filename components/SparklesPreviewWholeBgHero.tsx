@@ -61,28 +61,6 @@ export function SparklesPreviewWholeBgHero() {
                 <TimelineDemo />
             </div>
 
-            {/* <div className="z-10">
-                <TracingBeamDemo />
-            </div> */}
-
-            {/* <div className="px-12 sm:px-20 mt-10 z-10">
-                <motion.h2
-                    initial={{ opacity: 0, y: -20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    className="text-black font-semibold text-xl lg:text-3xl text-center"
-                >
-                    Boopprint Application
-                </motion.h2>
-            </div>
-            <div className="px-12 sm:px-24 lg:px-40 z-10">
-                <TextGenerateEffect words={appDescription} className="font-normal text-sm sm:text-lg text-center" />
-            </div>
-
-            <div className="px-0 sm:px-20 mt-0 sm:mt-6 z-10">
-                <CardHoverEffectDemo />
-            </div> */}
-
             <div className="px-12 sm:px-20 mt-10 z-10" id="testimonials">
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}

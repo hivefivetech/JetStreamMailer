@@ -41,27 +41,27 @@ export function TracingBeamProdTwo() {
 }
 
 const dummyContent = [
-    {
-        title: "Highly Secured Login",
-        description: (
-            <>
-                <p className="mb-4 text-lg font-medium text-gray-700">
-                    JetStream Mailer provides a <strong>highly secure login</strong> process for managing app passwords. Users are authenticated, and unique app passwords are generated and securely enabled from the backend.
-                </p>
-                <p className="mb-4 text-lg font-medium text-gray-700">
-                    This robust system ensures that your credentials are protected with advanced encryption and backend validation. Enjoy peace of mind knowing that your login process is safeguarded at every step.
-                </p>
-            </>
-        ),
-        badge: "Secure Login",
-        image: Img1,
-    },
+    // {
+    //     title: "Highly Secured Login",
+    //     description: (
+    //         <>
+    //             <p className="mb-4 text-lg font-medium text-gray-700">
+    //                 JetStream Mailer provides a <strong>highly secure login</strong> process for managing app passwords. Users are authenticated, and unique app passwords are generated and securely enabled from the backend.
+    //             </p>
+    //             <p className="mb-4 text-lg font-medium text-gray-700">
+    //                 This robust system ensures that your credentials are protected with advanced encryption and backend validation. Enjoy peace of mind knowing that your login process is safeguarded at every step.
+    //             </p>
+    //         </>
+    //     ),
+    //     badge: "Secure Login",
+    //     image: Img1,
+    // },
     {
         title: "App Password Generation",
         description: (
             <>
                 <p className="mb-4 text-lg font-medium text-gray-700">
-                    Easily generate app passwords with JetStream Mailer's intuitive tool. Users can upload a file containing Gmail accounts (in <strong>Excel</strong> or <strong>CSV</strong> format) to streamline the process.
+                    Easily generate app passwords with JetStream App Password Generator. Users can upload a file containing Gmail accounts (in <strong>Excel</strong> or <strong>CSV</strong> format) to streamline the process.
                 </p>
                 <p className="mb-4 text-lg font-medium text-gray-700">
                     The generated passwords are automatically saved in the same directory path as the uploaded file, ensuring a smooth workflow. JetStream Mailer simplifies app password management for efficient email operations.

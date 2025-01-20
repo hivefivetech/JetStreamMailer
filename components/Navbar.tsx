@@ -87,19 +87,19 @@ function Navbar({ className }: { className?: string }) {
                             title="JetStream Mailer"
                             href="/productOne"
                             src={ProductOne.src}
-                            description="Learn more about Product One and its amazing features."
+                            description="Learn more about JetStream Mailer and its amazing features."
                         />
                         <ProductItem
                             title="App Password Tool"
                             href="/productTwo"
                             src={ProductTwo.src}
-                            description="A simple and secure tool for generating app passwords effortlessly."
+                            description="Learn more about JetStream App Password Generator and its amazing features."
                         />
                         <ProductItem
                             title="API Generator"
                             href="/productThree"
                             src={ProductThree.src}
-                            description="Effortlessly generate APIs with customizable configurations for seamless integration."
+                            description="Learn more about JetStream API Generator and its amazing features."
                         />
                     </div>
                 </MenuItem>
