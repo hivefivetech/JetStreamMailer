@@ -74,9 +74,12 @@ export const Menu = ({
             onMouseLeave={() => setActive(null)} // resets the state
             className="relative rounded-full border border-transparent bg-[#111827d9] shadow-input flex justify-between items-center space-x-4 px-8 py-4"
         >
-            <div className="w-9 h-9">
+            <Link
+                href="/#"
+                className="w-9 h-9 duration-300 hover:scale-105"
+            >
                 <Image src={LogoImg} alt="Logo" />
-            </div>
+            </Link>
             <div className="flex flow-row justify-center items-center space-x-4">
                 {children}
             </div>
