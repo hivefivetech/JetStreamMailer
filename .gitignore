@@ -42,3 +42,6 @@ next-env.d.ts
 
 # sanity
 /jetstreammailerin/*
+
+# Ignore all .zip files in the public folder
+/public/*.zip
