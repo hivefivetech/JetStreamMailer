@@ -70,7 +70,8 @@ export default function ToolOne() {
                     </p>
                     <a
                         // href={latestVersion.file.asset.url}
-                        href={"../../../public/jetstreammailer.zip"}
+                        // href={"../../../public/jetstreammailer.zip"}
+                        href={"/jetstreammailer.zip"}
                         download
                         className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-2 px-6 rounded-full shadow-lg hover:shadow-2xl transition-transform duration-300  hover:-translate-y-1 flex items-center space-x-2"
                     >
