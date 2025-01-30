@@ -8,6 +8,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: '/productTwo', priority: 0.8, changeFrequency: 'weekly' as const },
         { url: '/productThree', priority: 0.8, changeFrequency: 'weekly' as const },
         { url: '/downloadProducts', priority: 0.9, changeFrequency: 'weekly' as const },
+        { url: '/disclaimer', priority: 0.9, changeFrequency: 'weekly' as const },
+        { url: '/privacyPolicy', priority: 0.9, changeFrequency: 'weekly' as const },
+        { url: '/termsAndConditions', priority: 0.9, changeFrequency: 'weekly' as const },
+        { url: '/faq', priority: 0.9, changeFrequency: 'weekly' as const },
     ];
 
     return pages.map((page) => ({
